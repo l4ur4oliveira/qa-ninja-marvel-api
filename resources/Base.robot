@@ -21,3 +21,6 @@ Set Client Key
     &{HEADERS}      Create Dictionary     client_key=${client_key}
 
     Set Suite Variable    ${HEADERS}
+
+Clean Database
+    DELETE          ${BASE_URL}/delorean        headers=${HEADERS}
