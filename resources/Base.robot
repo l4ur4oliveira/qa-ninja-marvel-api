@@ -7,6 +7,11 @@ Library             RequestsLibrary
 ${BASE_URL}       http://marvel.qaninja.academy
 
 *Keywords*
+Super Setup
+    [Arguments]     ${email}
+    Set Client Key  ${email}
+    Clean Database
+
 Set Client Key
     [Arguments]     ${email}
 

@@ -4,8 +4,7 @@ Documentation       Test suite to create characters in Marvel API
 Resource            ${EXECDIR}/resources/Base.robot
 Library             ${EXECDIR}/resources/factories/Character.py
 
-Suite Setup         Run Keywords        Set Client Key     l4ur4.88@gmail.com
-...                 AND                 Clean Database
+Suite Setup         Super Setup         l4ur4.88@gmail.com
 
 *Test Cases*
 Should create a character
