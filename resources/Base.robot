@@ -1,6 +1,7 @@
 *Settings*
-Documentation     Everything starts here
-Library           RequestsLibrary
+Documentation       Everything starts here
+Resource            routes/Characters.robot
+Library             RequestsLibrary
 
 *Variables*
 ${BASE_URL}       http://marvel.qaninja.academy
