@@ -73,3 +73,17 @@ Request Header: `client_key`
 
 Response Body (200):
 `Return all characters`
+
+- ### **GET /characters/:id**
+
+Request Header: `client_key`
+
+Response Body (200):
+`Return character data`
+
+- ### **DELETE /characters/:id**
+
+Request Header: `client_key`
+
+Response Body (204):
+`No content`

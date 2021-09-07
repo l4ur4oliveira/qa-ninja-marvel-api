@@ -27,3 +27,12 @@ def factory_black_widow():
     "team": "Avengers",
     "active": False
   }
+
+def factory_wolverine():
+  return {
+    "name": "Logan",
+    "aliases": "Wolverine",
+    "age": 65,
+    "team": "X-men",
+    "active": True
+  }

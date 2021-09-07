@@ -12,9 +12,9 @@ Should find character by id
     ${black_widow}          POST New Character      ${character}
     ${character_id}         Set Variable            ${black_widow.json()}[_id]
 
-    ${response2}            GET Character By Id     ${character_id}
+    ${response}            GET Character By Id     ${character_id}
 
-    Status Should Be        200     ${response2}
+    Status Should Be        200     ${response}
 
     Should Be Equal         ${black_widow.json()}[name]         ${character}[name]
     Should Be Equal         ${black_widow.json()}[aliases]      ${character}[aliases]
