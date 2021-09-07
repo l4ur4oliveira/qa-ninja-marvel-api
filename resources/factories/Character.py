@@ -18,3 +18,12 @@ def factory_deadpool():
     "team": "X Force",
     "active": True
   }
+
+def factory_black_widow():
+  return {
+    "name": "Natasha Romanoff",
+    "aliases": "Black Widow",
+    "age": 35,
+    "team": "Avengers",
+    "active": False
+  }

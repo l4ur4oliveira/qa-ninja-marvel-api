@@ -4,7 +4,7 @@ Projeto desenvolvido utilizando Robot Framework para testes de API.
 
 ## Run
 
-Para executar os testes usar `robot -d logs/ specs/CreateCharacter.robot`
+Para executar os testes usar `robot -d logs/ specs/`
 
 ## Endpoints
 
